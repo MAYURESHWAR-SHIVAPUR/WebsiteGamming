@@ -1,0 +1,53 @@
+
+.game2back{
+    height: 800px;
+    width: 1580px;
+    background: url(bg.gif);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.game-container {
+  position: relative;
+    width: 1590px;
+    height: 591px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.dino {
+  position: absolute;
+  right: 10%;
+  width: 256px;
+  height: 201px;
+  background: url(/src/games/game4/dino.gif);
+  background-size: cover;
+}
+
+.obstacle {
+  position: absolute;
+  bottom: 15px;
+  width: 150px;
+  height: 150px;
+  background: url(/src/games/game4/ice.png);
+  background-size: cover;
+}
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: red;
+}
+.game2back h1{
+  color: white;
+  height: 106px;
+  width: 318px;
+  display: grid;
+  place-content: center;
+  /* margin-top: -49px; */
+  background: url(/src/games/game4/banner.png);
+  background-size: contain;
+  border-radius: 23px;
+}

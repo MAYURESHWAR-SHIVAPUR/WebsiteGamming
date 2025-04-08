@@ -1,0 +1,164 @@
+.startdiv{
+    background: url(../all-pic/animated-forest.gif);
+    background-size: contain;
+    position: absolute;
+    height: 800px;
+    width: 1580px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    accent-color: #863737;
+}
+*{
+    outline: none;
+    border: none;
+    margin: 0;
+    font-family: cursive;
+}
+.startdiv div{
+    height: 900px;
+    display: grid;
+    
+}
+section1{
+    height: 50px;
+}
+section1 h1{
+    width: 150%;
+    height: 150px;
+    font-size: 50px;
+    color: #751e1e;
+    margin: 100px -120px;
+    background: url(../all-pic/wood2.png);
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    text-shadow: 2px 2px 0 white,-2px 2px 0  white,2px -2px 0 white ,-2px -2px 0 white;
+}
+section2{
+    height: 330px;
+    width: 500px;
+}
+
+section2 button,section8{
+    padding: 0;
+    z-index: 10;
+    background: url(../all-pic/wood2.png);
+    background-size: cover;
+    height: 100px;
+    width: 500px; 
+    cursor: pointer;
+   font-size: 40px;
+   color: #9a0b00;
+   text-shadow: 2px 2px 0 white,-2px 2px 0  white,2px -2px 0 white ,-2px -2px 0 white;
+}
+section8{
+    display: grid;
+    place-content: center;
+    font-size: large;
+    height: 120px;
+    width: 100%;
+}
+section9{
+    font-size: xx-large;
+    margin: 15px 0px;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.slider{
+    cursor: pointer;
+    width: 350px;
+    margin-left: 28px;
+}
+.navbar{
+    z-index: 10;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 60px;
+    width: 1538px;
+    /* background-color: black; */
+    color: white;
+    /* display: grid;
+    place-content: center; */
+}
+.workplace{
+    position: relative;
+    height: 100%;
+    width: 98%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large
+}
+.userimage,.coins{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 25px;
+}
+.border1{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+
+}
+.border2{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+    height: 60px;
+    width: 200px;
+    border: 5px solid green;
+    border-radius: 10px;
+    color: gold;
+}
+.border2 button{
+    display: grid;
+    place-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    /* margin-left: 60px; */
+    border-radius: 5px;
+}
+
+.border2 h4{
+    width: 80px;
+}
+.userimage{
+    background: url(../all-pic/profile.png) no-repeat;
+    background-size: cover;
+    /* border: none; */
+}
+.error{
+    font-size: 25px;
+    color: red;
+    background-color: black;
+    text-align: center;
+
+}
+.check{
+    width: 800px;
+    height: 20px;
+    /* background-color: white; */
+    /* background: linearGradient(); */
+}
+.coins{
+    margin: 0 10px;
+    background: url(../all-pic/coins.jpg) no-repeat;
+    background-size: cover;
+    border: none;
+}

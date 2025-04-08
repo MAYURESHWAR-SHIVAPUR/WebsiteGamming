@@ -1,0 +1,140 @@
+body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(./home_img/bg5.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./home_img/bg5.jpg);
+  background-size: cover;
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+}
+
+* {
+  text-decoration: none;
+}
+
+.heading {
+  text-align: center;
+  position: relative;
+  top: 1700px;
+  animation: firstlook 2s ease-in-out 0s 1 forwards;
+}
+
+.heading h1 {
+
+  text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
+  font-size: 80px;
+  font-family: cursive;
+
+}
+
+@keyframes firstlook {
+  0% {
+    top: 1700px;
+
+  }
+
+  50% {
+    top: 0;
+  }
+
+  75% {
+    color: darkgreen;
+    /* text-shadow:none; */
+
+  }
+
+  100% {
+    top: 0;
+    color: black;
+  }
+}
+
+.outer {
+  margin-top: 200px;
+  width: 1100px;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+
+.game1,
+.game2,
+.game3,
+.game4,
+.game5,
+.game6 {
+  height: 151px;
+  width: 269px;
+  margin: 0px 11px;
+  border: 10px solid white;
+  border-radius: 20px;
+  background-color: blue;
+  transition: all ease-in 0.3s;
+  color: white;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bolder;
+
+  &:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 43px 13px whitesmoke;
+    border: 10px solid gold;
+    color: gold;
+  }
+}
+
+.game1 {
+  background: url(./home_img/bg9.jpg);
+  background-size: cover;
+}
+
+.game2 {
+  background: url(./home_img/memory.jpeg);
+  background-size: contain;
+
+  &:hover {
+    text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
+    font-size: xx-large;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./home_img/memory.jpeg);
+  }
+}
+
+.game4 {
+  background: url(./home_img/dino.jpg);
+  background-size: contain;
+}
+
+.game3 {
+  background: url(./home_img/bird_shooting.jpg);
+  background-size: contain;
+}
+
+.game6 {
+  background: url(./home_img/bug-bg.jpeg);
+  background-size: cover;
+
+  &:hover {
+    text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
+    font-size: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./home_img/bug-bg.jpeg);
+  }
+}
+
+.game5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(./home_img/upcomming.jpg);
+  background-size: cover;
+  font-family: cursive;
+  display: grid;
+  place-content: center;
+  color: whitesmoke;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 26px;
+
+}

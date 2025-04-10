@@ -2,7 +2,7 @@ import { createContext } from 'react';
 import React, {useRef} from 'react'
 import './Game_3.css'
 import {useLocation  , useNavigate } from 'react-router-dom';
-const Game_3 = () => {
+const Game_3 = (props) => {
   const navigate = useNavigate()
   const location = useLocation()
   const {level} = location.state

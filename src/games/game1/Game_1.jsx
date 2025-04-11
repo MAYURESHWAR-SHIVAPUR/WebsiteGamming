@@ -70,12 +70,12 @@ const Game_1 = () => {
 
 
     setTimeout(()=>{
-    let choise = ["rock" , "paper", "sissior"]
+    let choise = [rock , paper, sissior]
     let ansPy =  show;
     let ansCo = choise[(Math.floor(Math.random()*3))]
-    ans.backgroundImage = `url(/src/games/game1/${show}.png)`
+    ans.backgroundImage = `url(${show})`
     ans.backgroundSize = 'cover';
-    com.backgroundImage = `url(/src/games/game1/${ansCo}.png)`
+    com.backgroundImage = `url({ansCo})`
     com.backgroundSize = 'cover';
     if(ansPy==undefined){
       return

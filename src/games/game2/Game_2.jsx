@@ -80,7 +80,7 @@ const Game_2 = () => {
               <div className="front"></div>
               <div
                 className="back"
-                style={{ background: `url(/src/games/game2/${card.value}.png) no-repeat`, backgroundSize: 'cover' }}
+                style={{ background: `url(./${card.value}.png) no-repeat`, backgroundSize: 'cover' }}
               >
                 {card.flipped || matched.includes(index) ? '' : card.value}
               </div>

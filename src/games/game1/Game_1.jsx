@@ -75,7 +75,7 @@ const Game_1 = () => {
     let ansCo = choise[(Math.floor(Math.random()*3))]
     ans.backgroundImage = `url(${show})`
     ans.backgroundSize = 'cover';
-    com.backgroundImage = `url({ansCo})`
+    com.backgroundImage = `url(${ansCo})`
     com.backgroundSize = 'cover';
     if(ansPy==undefined){
       return

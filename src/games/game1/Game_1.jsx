@@ -142,9 +142,9 @@ document.getElementsByClassName("scoreCo")[0].textContent = scoreCo},1000)
         <div className="ansCo"></div>
     </section5>
     <section6>
-        <button className='rock' onClick={()=>{funcalling("rock")}}></button>
-        <button className='paper' onClick={()=>{funcalling("paper")}}></button>
-        <button className='sissor' onClick={()=>{funcalling("sissior")}}></button>
+        <button className='rock' onClick={()=>{funcalling(rock)}}></button>
+        <button className='paper' onClick={()=>{funcalling(paper)}}></button>
+        <button className='sissor' onClick={()=>{funcalling(sissior)}}></button>
     </section6>
     </div>
     </div>

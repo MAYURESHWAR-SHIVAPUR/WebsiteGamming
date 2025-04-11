@@ -87,7 +87,6 @@ const Game_1 = () => {
       com.boxShadow = 'blue 0px 0 52px 7px'
       document.getElementsByClassName('vs')[0].textContent = 'TIE'
     }
-    // else if(((ansPy=="rock")&&(ansCo=="sissior")||(ansPy=="paper")&&(ansCo=="rock")||(ansPy=="sissior")&&(ansCo=="paper"))){
     else if(((ansPy==rock)&&(ansCo==sissior)||(ansPy==paper)&&(ansCo==rock)||(ansPy==sissior)&&(ansCo==paper))){
       ans.border = '5px solid green'
       com.border = '5px solid red'
